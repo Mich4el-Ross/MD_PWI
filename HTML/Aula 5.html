@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+       <link href="css/estilo A5.css" rel="stylesheet">         
+        <title>Aula Formularios!</title>
+    </head>
+    <body>
+        <!-- Isso é um comentário -->  
+        <form action="/futuramenteVocesVaoAprender.php">
+            <!-- Labels servem como os identificadores de items do formulário! -->
+            <!-- o atributo for serve como uma identificação que está associada a id do elemento -->
+            <!-- ou seja, devem ser iguais! -->
+            <label for="txtNome">Nome:</label>
+            <!-- Input é entrada, então você está definindo um elemento de entrada de dados -->
+            <!-- do tipo (type) texto, essa é a famosa textbox! Value é um atributo que serve pra definir -->
+            <!-- um valor padrão. -->
+            <input type="text" id="txtNome" value="Michael"><br>
+            <!-- Mais uma label aqui! -->
+            <label for="linguagens">Escolha o que mais gostou:</label>
+            <!-- O tipo select cria uma lista onde deve ser escolhido apenas 1 elemento -->
+            <select id="linguagens">
+                <!-- Option é a opção (dãããããã) e cada opção tem um valor agregado que vai pro banco de dados (value) -->
+                <!-- e ao fechar a tag option você define uma label para aquela opção -->
+                <option value="PHP">Php</option>
+                <option value="ASP">Asp</option>
+            </select><br>
+            <label for="linguagensv2">Escolha o que mais gostou v2:</label>
+            <!-- Aqui vemos o select de novo, mas dessa vez com o atributo size que faz ele ser exibido -->
+            <!-- de forma diferente -->
+            <select id="linguagensv2" size="2">
+                <option value="PHP">Php</option>
+                <option value="ASP">Asp</option>
+                <option value="JAVASCRIPT">Javascript</option>
+                <option value="VUEJS">VueJS</option>
+            </select><br>
+            <label for="cores">Qual a sua cor favorita?</label>
+            <!-- Com uma linha você é capaz de chamar um seletor de cores! Uau! -->
+            <input type="color" id="cores" name="cores"><br>
+            <label for="aniversario">Aniversário:</label>
+            <!-- E aqui você cria um seletor de datas, pois seu input type é date! -->
+            <input type="date" id="aniversario" name="aniversario">
+            <!-- Quando vocês aprenderem php e sql vão saber que o tipo submit pega tudo do formulário -->
+            <!-- e executa mandando pro BD ou fazendo outra coisa -->
+            <input type="submit" value="Enviar">
+            <!-- E esse botão redefine para os valores padrão -->
+            <input type="reset" value="Redefinir">
+        </form>        
+         
+    </body>
+</html>
