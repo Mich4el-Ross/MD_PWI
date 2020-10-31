@@ -1,0 +1,35 @@
+/* Esse é um comentário no CSS */
+
+body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/45b9b6dd-8bf8-484c-a047-4fda417cc644/dd7evq3-72f8b25f-e4da-47bb-b651-58b8c0f3a570.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNDViOWI2ZGQtOGJmOC00ODRjLWEwNDctNGZkYTQxN2NjNjQ0XC9kZDdldnEzLTcyZjhiMjVmLWU0ZGEtNDdiYi1iNjUxLTU4YjhjMGYzYTU3MC5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.-3i0cGWE4J2yF1sj_XFEtInCOD7VmRbRFq1KLiWFmOU");
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35pt;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    
+}
+h2 {
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 25pt;
+ color: red;
+ text-align: left;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+    text-align: justify;
+    color: white;
+    font-style: italic;
+}
+
+img {
+    
+    float:right;
+    width: 75pt;
+    height:auto;
+}
