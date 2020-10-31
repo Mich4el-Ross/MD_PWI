@@ -1,0 +1,65 @@
+/*Centralizar na pagina + background*/
+
+form {
+    margin: 0 auto;
+    width:350px;
+    padding-top: 200px;
+}
+
+
+body{ background: linear-gradient(329.54deg, #198eee 0% , #034949 100%);
+    height: 97vh;
+}
+
+/*Estilização dos campos*/
+
+.Forms input, textarea{
+
+    color: grey;
+    background-color:#eee;
+
+    
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+    border: 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 300px;
+}
+
+.Forms button{
+    background-color: rgb(44, 196, 90);
+    color: white;
+
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    width: 150px;
+
+    margin-bottom: 20px;
+    margin-left: 90px;
+
+    border: 0px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    box-sizing: border-box;
+
+    cursor: pointer;
+
+    transition:background 200ms;
+    animation-delay: 200ms;
+}
+
+.Forms button:hover{
+
+background: rgb(40, 153, 74);    
+}
+
+
+
+
