@@ -1,0 +1,105 @@
+/*Centralizar na pagina + background*/
+
+form {
+    margin: 0 auto;
+    width:400px;
+    padding-top: 100px;
+}
+
+
+/*Estilização dos plano de fundo do formulário*/
+
+::placeholder{
+    color: rgb(119, 119, 119);
+}
+
+label{
+    color: rgb(97, 97, 97);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+    padding-left: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 25px;
+
+    
+    width: 300px;
+}
+
+
+/*Estilização da área de digitação*/
+
+.Style{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 15px;
+    
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: solid rgb(180, 180, 180) ;
+
+    width: 300px;
+}
+
+
+/*Estilização da área de escolha*/
+
+.Choose{
+
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 15px;
+
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: solid rgb(180, 180, 180) ;
+    
+    background: url(https://www.shareicon.net/data/12x12/2016/02/26/725244_arrows_512x512.png) no-repeat right;
+    appearance: none;
+
+    width: 300px;
+}
+
+
+/*Estilo do botão*/
+
+.Forms button{
+    background-image: linear-gradient(to right, #9c2689 0%, #582fc9 50%, #4dcfe0 100%);
+    color: white;
+
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 25px;
+
+    width: 300px;
+
+    cursor: pointer;
+
+    transition:background 200ms;
+    animation-delay: 200ms;
+}
+
+.Forms button:hover{
+
+background-image: linear-gradient(to right, #e414c1 0%, #391992 50%, #8ecfd8 100%)    
+
+}
