@@ -1,0 +1,25 @@
+form {
+    margin: 0 auto;
+    width: 750px;
+    padding-top: 20px;
+
+}
+
+div {
+
+    background-color: orange;
+    
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: 900;
+
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+}
+

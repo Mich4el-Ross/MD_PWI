@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript</title>
+
+        <link href="estilo.css" rel="stylesheet"></link>
+
+    </head>
+
+    <body>
+
+        <div>
+            <h1 >JavaScript</h1>
+        </div>
+
+        <hr>
+        <br>
+        <p>Eu entendo que JavaScript é uma linguagem de programação interpretada e
+            estruturada de script em alto nível, na qual esta atualmente em grande ascensão
+            para a programação client-side em navegadores web. Ela é usada juntamente com a
+            HTML e CSS, sendo que sua principal funcionalidade é de criar a interação
+            necessária com o usuário.
+        </p>
+        <br>
+        <hr>
+
+        <!--Exercício 1 -- Calculadora-->
+
+        <br>
+        <h2>Exemplo 1</h2>
+
+        <p>Para o esse primeiro exercício, decidi criar uma calculadora simples, que
+            apenas realiza as 4 operações basicas da matemática (soma, subtração,
+            multiplicação e divisão)</p>
+
+        <form>
+            <table border="1">
+                <tr>
+                    <th colspan="5">
+                        Calculadora com JavaScript e HTML
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <b>1° Valor:</b>
+                        <input type="text" name="val1" id="val1"></td>
+                    <td>
+
+                        <select name="sinal" id="sinal">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="*">*</option>
+                            <option value="/">/</option>
+                        </select>
+
+                    </td>
+                    <td>
+                        <b>2° Valor:</b>
+                        <input type="text" name="val2" id="val2"></td>
+
+                    <td>
+                        <input type="button" value="=" onclick="calcular();" name=""></td>
+
+                    <td>
+
+                        <input type="text" name="resultado" id="resultado"></td>
+                </tr>
+            </table>
+        </form>
+
+        <br><br>
+        <hr>
+
+        <!--Exercício 2 -- Listas-->
+
+        <h2>Exemplo 2</h2>
+
+        <p>Para esse segundo exercício decidi criar um lista dinâmica usando JavaScript,
+            que deverá adicionar itens ao pedido do usuário</p>
+
+        Item:<input size="25" type="text" id="text" placeholder="Digite o item a ser adicionado">
+
+        <ul type="Disc" id="list">
+
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+        <button onclick="adicionar()">Adicionar item</button>
+
+        <br><br>
+
+        <script src="calcular.js"></script>
+        <script src="adicionar.js"></script>
+
+    </body>
+</html>
