@@ -26,7 +26,7 @@ a{
 }
 
 body {
-    background-image: url(/img/universe.jpg) ;
+    background-image: url(universe.jpg) ;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0;
